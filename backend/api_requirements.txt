@@ -1,0 +1,16 @@
+# Backend API Server Dependencies
+
+# Core ML Libraries (already in requirements.txt)
+# torch>=2.1.0
+# transformers>=4.36.0
+# peft>=0.7.0
+# bitsandbytes>=0.41.0
+
+# API Server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Add to existing requirements.txt
